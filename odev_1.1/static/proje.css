@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #4744c46c;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ffffff;
+    color: rgb(10, 1, 1);
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1;
+    padding: 1;
+    background-color: #11a2a7;
+    font-size: 25px; 
+}
+.container {
+    margin-top: 20px;
+    padding: 16px;
+    border-radius: 5%;
+    background-color: rgb(15, 182, 71);
+    font-family: 'Times New Roman', Times, serif;
+}

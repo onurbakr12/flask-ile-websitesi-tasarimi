@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yapılan Projeler</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='proje.css') }}">
+    <script src="{{ url_for('static', filename='common-script.js') }}"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="{{ url_for('index') }}" class="back-button" onclick="goBack()">&#9664; Önceki</a>
+    </div>
+    <div class="container">
+        <h1>Yapılan Projeler</h1>
+        <p>Proje1: Mikroişlemcilere Giriş dersi kapsamında verilen ödevde bir adet proje yapmamız isteniyor. Bu proje kapsamında bizde 2 kişilik bir grup olarak Maksum Bayram adlı arkdaşımla bir adet GPS tracker cihazı yapmak istedik.
+            Bu projenin amacı herhangi bir nesne, kişi, çeşitli savunma sanayi sistemlerinde kullanılabilecek olan bir adet izleme sistemi kurulabilmesi amaçlanmıştır.
+        <p>Proje2: STM32F4 işlemcisi ile bir adet HBRIDGE ile DC motor kontrolü</p>
+            Proje3: Bir adet ardunio ile sumo robot yapımı
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #070000;
+    color: rgb(255, 255, 255)
+}
+
+.container {
+    margin-top: 10px;
+    padding: 55px;
+    background-color: rgb(87, 75, 83);
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3;
+    padding: 3;
+    background-color: #041e2e;
+    font-size: 30px; 
+}
+
+#profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+}
